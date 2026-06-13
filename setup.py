@@ -18,7 +18,7 @@ long_description = read('README.md')
 install_requires = [
     'brawn',
     'numpy',
-    'biopython == 1.81',
+    'biopython == 1.87',
     'helperlibs >=0.2.2',
     'jinja2',
     'joblib',
@@ -35,7 +35,7 @@ install_requires = [
 ]
 
 tests_require = [
-    'pytest >= 7.2.0, < 8',
+    'pytest >= 7.2.0, < 10',
     'coverage',
     'pylint == 3.0.2',
     'mypy == 1.17.1',  # for consistent type checking
